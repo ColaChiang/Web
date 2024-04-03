@@ -1,0 +1,381 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+.navbar {
+  position: fixed;
+  background-color: black;
+  width: 100%;
+  margin: auto;
+  padding: 30px 0px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  z-index: 103;
+}
+
+.navbar ul li {
+  list-style: none;
+  display: inline-block;
+  margin: 0 20px;
+  z-index: 103;
+
+  position: relative;
+}
+.navbar ul li a {
+  font-weight: bolder;
+  text-decoration: none;
+  color: #fff;
+  text-transform: uppercase;
+  z-index: 103;
+}
+.navbar ul li::after {
+  content: "";
+  width: 0;
+  height: 3px;
+  background: #009688;
+  position: absolute;
+  left: 0;
+  bottom: -10px;
+  transition: 0.5s;
+  z-index: 103;
+}
+.navbar ul li:hover::after {
+  width: 100%;
+  z-index: 103;
+}
+body {
+  background-color: #f7ede2;
+}
+.mybar {
+  height: 81px;
+  width: 100%;
+  background-color: #fff;
+}
+.bg1 {
+  float: right;
+  height: 50vh;
+  width: 50%;
+  background-color: rgba(0, 0, 0, 0.4);
+  background-blend-mode: multiply;
+  background-image: url(images/pexels-stephan-seeber-1261728.jpg);
+  background-size: cover;
+  background-position: center center;
+}
+
+.text1 {
+  margin-left: 790px;
+  position: absolute;
+  height: 50vh;
+  width: 50%;
+  z-index: 101;
+  background-color: #00000000;
+  background-blend-mode: multiply;
+  background-size: cover;
+  background-position: center center;
+}
+.text1:hover {
+  display: block;
+  margin-left: 790px;
+  position: absolute;
+  height: 50vh;
+  width: 50%;
+  z-index: 101;
+
+  background-color: #f0efeb;
+  background-blend-mode: multiply;
+  background-size: cover;
+  background-position: center center;
+  transition: ease-in 0.5s;
+  transition: ease-out 0.5s;
+}
+.text1 h2 {
+  color: rgba(0, 0, 0, 0);
+  font-size: xx-large;
+  text-align: center;
+  line-height: 170px;
+}
+.text1:hover h2 {
+  color: rgb(0, 0, 0);
+  font-size: xx-large;
+  text-align: center;
+  line-height: 170px;
+  transition: ease-in 0.5s;
+  transition: ease-out 0.5s;
+}
+.text1 h4 {
+  color: rgba(0, 0, 0, 0);
+  text-align: center;
+}
+.text1:hover h4 {
+  color: rgb(0, 0, 0);
+  font-size: large;
+  text-align: center;
+  transition: ease-in 0.5s;
+}
+
+.text2 {
+  position: absolute;
+  height: 50vh;
+  width: 50%;
+  background-color: rgba(0, 0, 0, 0);
+  background-blend-mode: multiply;
+  background-size: cover;
+  z-index: 101;
+
+  background-position: center center;
+}
+.text2:hover {
+  position: absolute;
+  height: 50vh;
+  width: 50%;
+  background-color: #f0efeb;
+  background-blend-mode: multiply;
+  background-size: cover;
+  z-index: 101;
+
+  background-position: center center;
+}
+.text2 h2 {
+  color: rgba(0, 0, 0, 0);
+  font-size: xx-large;
+  text-align: center;
+  line-height: 170px;
+}
+.text2:hover h2 {
+  color: rgb(0, 0, 0);
+  font-size: xx-large;
+  text-align: center;
+  line-height: 170px;
+  transition: ease-in 0.5s;
+  transition: ease-out 0.5s;
+}
+.text2 h4 {
+  color: rgba(0, 0, 0, 0);
+  text-align: center;
+}
+.text2:hover h4 {
+  color: rgb(0, 0, 0);
+  font-size: large;
+  text-align: center;
+  transition: ease-in 0.5s;
+}
+
+.text3 {
+  margin-top: 474px;
+  margin-left: 790px;
+  position: absolute;
+  height: 50vh;
+  width: 50%;
+  z-index: 101;
+
+  background-color: rgba(0, 0, 0, 0);
+  background-blend-mode: multiply;
+  background-size: cover;
+  background-position: center center;
+}
+
+.text3:hover {
+  position: absolute;
+  height: 50vh;
+  width: 50%;
+  background-color: #f0efeb;
+  background-blend-mode: multiply;
+  background-size: cover;
+  z-index: 101;
+
+  background-position: center center;
+}
+.text3 h2 {
+  color: rgba(0, 0, 0, 0);
+  font-size: xx-large;
+  text-align: center;
+  line-height: 170px;
+}
+.text3:hover h2 {
+  color: rgb(0, 0, 0);
+  font-size: xx-large;
+  text-align: center;
+  line-height: 170px;
+  transition: ease-in 0.5s;
+  transition: ease-out 0.5s;
+}
+.text3 h4 {
+  color: rgba(0, 0, 0, 0);
+  text-align: center;
+}
+.text3:hover h4 {
+  color: rgb(0, 0, 0);
+  font-size: large;
+  text-align: center;
+  transition: ease-in 0.5s;
+}
+
+.text4 {
+  margin-top: 474px;
+  position: absolute;
+  height: 50vh;
+  width: 50%;
+  z-index: 101;
+
+  background-color: rgba(0, 0, 0, 0);
+  background-blend-mode: multiply;
+  background-size: cover;
+  background-position: center center;
+}
+
+.text4:hover {
+  position: absolute;
+  height: 50vh;
+  width: 50%;
+  background-color: #f0efeb;
+  background-blend-mode: multiply;
+  background-size: cover;
+  z-index: 101;
+
+  background-position: center center;
+}
+.text4 h2 {
+  color: rgba(0, 0, 0, 0);
+  font-size: xx-large;
+  text-align: center;
+  line-height: 170px;
+}
+.text4:hover h2 {
+  color: rgb(0, 0, 0);
+  font-size: xx-large;
+  text-align: center;
+  line-height: 170px;
+  transition: ease-in 0.5s;
+  transition: ease-out 0.5s;
+}
+.text4 h4 {
+  color: rgba(0, 0, 0, 0);
+  text-align: center;
+}
+.text4:hover h4 {
+  color: rgb(0, 0, 0);
+  font-size: large;
+  text-align: center;
+  transition: ease-in 0.5s;
+}
+
+.title1 {
+  background-color: #f0efeb;
+  width: 250px;
+  height: 150px;
+  margin-top: 60px;
+  margin-left: 260px;
+  z-index: 100;
+  position: relative;
+}
+.title1 img {
+  margin-top: 20px;
+  margin-left: 110px;
+}
+.title1 h4 {
+  margin-left: 109px;
+}
+.title1 h2 {
+  margin-top: 10px;
+
+  margin-left: 82px;
+}
+.bg2 {
+  float: left;
+  height: 50vh;
+  width: 50%;
+  background-color: rgba(0, 0, 0, 0.4);
+  background-blend-mode: multiply;
+  background-image: url(images/bk1.jpg);
+  background-size: cover;
+  background-position: center center;
+  margin-top: 0px;
+}
+
+.title2 {
+  background-color: #f0efeb;
+  width: 250px;
+  height: 150px;
+  margin-top: 60px;
+  margin-left: 260px;
+  z-index: 100;
+  position: relative;
+}
+.title2 img {
+  margin-top: 20px;
+  margin-left: 105px;
+}
+.title2 h4 {
+  margin-left: 90px;
+}
+.title2 h2 {
+  margin-top: 10px;
+  margin-left: 77px;
+}
+.bg3 {
+  height: 50vh;
+  float: right;
+
+  width: 50%;
+  background-color: rgba(0, 0, 0, 0.4);
+  background-blend-mode: multiply;
+  background-image: url(images/difficult.jpg);
+  background-size: cover;
+  background-position: center center;
+}
+
+.title3 {
+  background-color: #f0efeb;
+  width: 250px;
+  height: 150px;
+  margin-top: 60px;
+  margin-left: 260px;
+  z-index: 100;
+  position: relative;
+}
+.title3 img {
+  margin-top: 20px;
+  margin-left: 110px;
+}
+.title3 h4 {
+  margin-left: 115px;
+}
+.title3 h2 {
+  margin-top: 10px;
+  margin-left: 82px;
+}
+
+.bg4 {
+  float: left;
+  height: 50vh;
+  width: 50%;
+  background-color: rgba(0, 0, 0, 0.4);
+  background-blend-mode: multiply;
+  background-image: url(images/railway.jpg);
+  background-size: cover;
+  background-position: center center;
+}
+
+.title4 {
+  background-color: #f0efeb;
+  width: 250px;
+  height: 150px;
+  margin-top: 60px;
+  margin-left: 260px;
+  z-index: 100;
+  position: relative;
+}
+.title4 img {
+  margin-top: 20px;
+  margin-left: 103px;
+}
+.title4 h4 {
+  margin-left: 88px;
+}
+.title4 h2 {
+  margin-top: 10px;
+  margin-left: 77px;
+}
